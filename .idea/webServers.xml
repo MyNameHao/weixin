@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="cc76bbee-b835-4410-9184-934b8722268b" name="aliyun" url="http://47.98.61.45">
+        <fileTransfer host="47.98.61.45" port="22" rootFolder="/wwwroot" accessType="SFTP" password="df9bdf9bdf9fdf9bdf92df99" username="sunhao">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

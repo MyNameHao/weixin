@@ -11,7 +11,6 @@ class Weixin extends Controller
         $signature = $_GET["signature"];
         $timestamp = $_GET["timestamp"];
         $nonce = $_GET["nonce"];
-
         $token = '13f28331544668e5081ad31235242a34';
         $tmpArr = array($token, $timestamp, $nonce);
         sort($tmpArr, SORT_STRING);
@@ -19,7 +18,7 @@ class Weixin extends Controller
         $tmpStr = sha1( $tmpStr );
 
         if( $tmpStr == $signature ){
-            return true;
+            echo $_GET['echostr'];
         }else{
             return false;
         }
