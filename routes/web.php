@@ -22,3 +22,4 @@ Route::get('/deluser','User\UserController@deluser');
 Route::get('/upuser','User\UserController@upuser');
 Route::get('/index','User\UserController@index');
 Route::get('/redis1','User\UserController@redis1');
+Route::get('/weixinurl','Wx\Weixin@weixinurl');
