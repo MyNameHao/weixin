@@ -12,5 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    phpinfo();
 });
+Route::get('/user', function () {
+    echo 111333222;
+});
+Route::get('/adduser','User\UserController@adduser');
+Route::get('/deluser','User\UserController@deluser');
+Route::get('/upuser','User\UserController@upuser');
+Route::get('/index','User\UserController@index');
+Route::get('/redis1','User\UserController@redis1');
