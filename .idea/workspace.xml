@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85ac4e3a-7142-491c-a1f5-371a1ac59290" name="默认的" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Wx/Weixin.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Wx/Weixin.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bin/carbon" afterPath="$PROJECT_DIR$/vendor/bin/carbon" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bin/php-parse" afterPath="$PROJECT_DIR$/vendor/bin/php-parse" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bin/phpunit" afterPath="$PROJECT_DIR$/vendor/bin/phpunit" />
@@ -51,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Wx/Weixin.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.60897434">
-              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -452,7 +450,7 @@
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Wx/Weixin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.60897434">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
           <folding />
         </state>
       </provider>
