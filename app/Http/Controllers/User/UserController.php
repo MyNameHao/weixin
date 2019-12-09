@@ -6,12 +6,14 @@ use App\Http\Controllers\Controller;
 use App\Model\UserModel;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redis;
+use GuzzleHttp\Client;
+
 
 class UserController extends Controller
 {
     public function adduser(){
         echo md5(115183);
-        phpinfo();exit;
+        phpinfo();
         $data=[
             'user_name'=>'张三',
             'password'=>password_hash('123456abc',PASSWORD_BCRYPT),
@@ -45,6 +47,15 @@ class UserController extends Controller
     }
     public function qishou()
     {
-        $url='http://tv.sohu.com/s2016/qscrzwjbc/';
+        $url='http://www.baidu.com/';
+        $client = new Client();
+        $aaa=$client->request('GET',$url);
+        echo $aaa->getBody();
+    }
+    public function fanyi(){
+        $url='https://fanyi.baidu.com/';
+        $client = new Client();
+        $aaa=$client->request('GET',$url);
+        echo $aaa->getBody();
     }
 }
